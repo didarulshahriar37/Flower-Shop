@@ -1,0 +1,92 @@
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-straight/css/uicons-bold-straight.css');
+
+/* fonts */
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* page center */
+/* shared styles */
+.link-decoration{
+    text-decoration: none;
+}
+.span-color{
+    color: #E95A08;
+}
+
+/* navbar styles */
+.logo img{
+    height: 82px;
+}
+.nav-container{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-container, .banner-container{
+    max-width: 1140px;
+    margin: 0 auto;
+} 
+.navigations ul{
+    display: flex;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 48px;
+}
+.home{
+    color: #252432;
+    font-weight: 600;
+}
+.shop, .aboutUs{
+    color: #8987A1;
+}
+.cart{
+    color: #000000;
+}
+
+/* banner-styles */
+.banner-container{
+    display: flex;
+    align-items: end;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.banner-title-description{
+    width: 35.625rem;
+}
+.banner-title{
+    font-size: 2rem;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px){
+    .nav-container{
+        margin: 0 auto;
+    }
+    .home, .shop, .aboutUs{
+        display: none;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-title-description{
+        width: auto;
+    }
+}

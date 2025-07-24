@@ -39,6 +39,15 @@ section{
     cursor: pointer;
     padding: 0 19px;
 }
+.btn-decoration:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
 
 /* navbar styles */
 .logo img{

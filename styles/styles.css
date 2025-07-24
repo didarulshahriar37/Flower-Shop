@@ -24,6 +24,9 @@ section{
 .link-decoration{
     text-decoration: none;
 }
+.nav-items{
+    list-style: none;
+}
 .span-color{
     color: #E95A08;
 }
@@ -55,9 +58,6 @@ section{
 }
 .navigations{
     margin-right: 4.5px;
-}
-.nav-items{
-    list-style: none;
 }
 .home, .shop, .aboutUs{
     margin-right: 48px;
@@ -167,6 +167,37 @@ section{
     width: 550px;
 }
 
+/* footer styles */
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.other-pages ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+.feature-pages ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+.social-media{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer-links{
+    color: rgba(107, 114, 128, 1);
+}
+footer .social-media{
+    justify-content: flex-start;
+}
 /* responsive media query */
 @media screen and (max-width: 576px){
     .nav-container{

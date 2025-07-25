@@ -61,7 +61,9 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button
+                            onclick="updateCart()"
+                            class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -71,7 +73,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -81,7 +83,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -91,7 +93,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -101,7 +103,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -111,7 +113,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -121,7 +123,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
                 <div class="cards">
@@ -131,7 +133,7 @@
                     <div class="plant-name-price-button">
                         <p class="plant-name">Lily Blossom</p>
                         <p class="plant-price">20 USD</p>
-                        <a href=""><button class="btn-decoration btn-cart">ADD TO CART</button></a>
+                        <a href=""><button onclick="updateCart()" class="btn-decoration btn-cart">ADD TO CART</button></a>
                     </div>
                 </div>
             </div>
@@ -168,20 +170,20 @@
                     <div class="bloom-plant">
                         <div class="bloom-plant-shop">
                             <p class="bloom-title noto-serif-normal">60% Off | Bloom Plant</p>
-                            <p class="bloom-shop"><a class="link-decoration" href="">Shop Now</a></p>
+                            <p class="bloom-shop"><a class="link-decoration plant-link" href="">Shop Now</a></p>
                         </div>
                     </div>
                     <div class="ana-plant">
                         <div class="ana-plant-shop">
                             <p class="ana-title noto-serif-normal">30% Off | Ana Plant</p>
-                            <p class="ana-shop"><a class="link-decoration" href="">Shop Now</a></p>
+                            <p class="ana-shop"><a class="link-decoration plant-link" href="">Shop Now</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="zabo-plant">
                     <div class="zabo-plant-shop">
                         <p class="zabo-title noto-serif-normal">25% Off | Zabo Plant</p>
-                        <p class="zabo-shop"><a class="link-decoration" href="">Shop Now</a></p>
+                        <p class="zabo-shop"><a class="link-decoration plant-link" href="">Shop Now</a></p>
                     </div>
                 </div>
             </div>
@@ -230,6 +232,11 @@
             <a href=""><img src="assets/icon-youtube.png" alt="Youtube"></a>
         </div>
     </footer>
+    <script>
+        function updateCart() {
+            alert("Flower Added to Cart");
+        }
+    </script>
 </body>
 
 </html>
